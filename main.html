@@ -10,21 +10,25 @@
             margin-top: 2%;
         }
         .hobbies {
-            border-style: solid;
+            
             display: flex;
             margin-left: auto;
             margin-right: auto;
             margin-top: 5%;
             width: 80%;
-            border-spacing: 10px;
+            height: 450px;
+            background-color: #fbfad3;
+            opacity: .7;
+            size: fixed;
         }
         .individual {
             margin:5%;
             margin-left: auto;
             margin-right: auto;
-            border-style: solid;
-            border-color: black;
+            background-color: #c6e377;
             width: 260px;
+            height: 260px;
+           
         }
         .individual h2{
             text-align: center;
@@ -40,11 +44,13 @@
             display: block;
             margin:5%;
             margin-left: auto;
-            margin-right: auto;
-            border-style: solid;
-            border-color: green;
+            margin-right: auto;  
             color: green;
             width: 260px;
+            box-shadow: 10px 10px 10px black;
+            width:300px ;
+            height:300px;
+            height: auto;
         }
         body {
             background-image: url('forest2.jpg');
@@ -52,26 +58,20 @@
             background-size: 100%;
 
         }
-        html,body{
-            height: 100%
-        }
 
-        #holder{
-            min-height: 100%;
-            position:relative;
-        }
-
-        #body{
-            padding-bottom: 100px;    /* height of footer */
-        }
-        footer{
-            background-color: blanchedalmond;
-            height: 100px; 
+        .footer{
+            background-color: #fbfad3;
+            height: 25px; 
             width:100%;
             position: absolute;
             left: 0;
             bottom: 0;
             text-align: center;
+        }
+        .header {
+            width: 100%;
+            background-color: #fbfad3;
+            left: 0;
         }
 
 
@@ -79,12 +79,13 @@
 
     </head>
     <body>
-        
-        <div id="holder">
-            <h1>My Hobbies</h1>
-            <div id="body">
+            
+                <div class="header">
+                 <h1>My Hobbies</h1>   
+                </div>
+                
                 <div class="hobbies">
-
+                    
                 <!-- climbing -->
                     <div class="individual">
                     <img src="climbing.jpg" alt="climbing" width=70% height=50%/>
@@ -113,8 +114,8 @@
                 <!-- hiking end-->   
 
                 </div>
-            </div>
-            <footer>Adomas Kazėnas 2022 | Sources</footer>
-        </div>
+
+            <div class="footer">Adomas Kazėnas 2022 | Sources</footer>
+
     </body>
 </html>
