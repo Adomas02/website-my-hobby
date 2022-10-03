@@ -3,6 +3,8 @@
     <head>
         <title>Hobby</title>
         <style>
+
+        
         h1 {
             text-align: center;
             margin-top: 2%;
@@ -44,45 +46,75 @@
             color: green;
             width: 260px;
         }
+        body {
+            background-image: url('forest2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+        html,body{
+            height: 100%
+        }
+
+        #holder{
+            min-height: 100%;
+            position:relative;
+        }
+
+        #body{
+            padding-bottom: 100px;    /* height of footer */
+        }
+        footer{
+            background-color: blanchedalmond;
+            height: 100px; 
+            width:100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+        }
+
 
         </style>
 
     </head>
     <body>
-        <h1 >
-            My Hobbies
-        </h1>
-       <div class="hobbies">
+        
+        <div id="holder">
+            <h1>My Hobbies</h1>
+            <div id="body">
+                <div class="hobbies">
 
-            <!-- climbing -->
-            <div class="individual">
-              <img src="climbing.jpg" alt="climbing" width=70% height=50%/>
-              <h2>
-                climbing
-              </h2>  
+                <!-- climbing -->
+                    <div class="individual">
+                    <img src="climbing.jpg" alt="climbing" width=70% height=50%/>
+                    <h2>
+                        climbing
+                    </h2>  
+                    </div>
+                <!-- climbing end-->
+                
+                <!-- airsoft -->
+                    <div class="individual">
+                        <img src="airsoft.jpg" alt="airsoft" width=70% height=50% />
+                        <h2>
+                        airsoft
+                        </h2>  
+                    </div>
+                <!-- airsoft end-->
+
+                <!-- hiking -->
+                    <div class="individual">
+                        <img src="hiking.jpg" alt="airsoft" width="175" height="175"/>
+                        <h2>
+                        hiking
+                        </h2> 
+                    </div>
+                <!-- hiking end-->   
+
+                </div>
             </div>
-            <!-- climbing end-->
-            
-            <!-- airsoft -->
-            <div class="individual">
-                <img src="airsoft.jpg" alt="airsoft" width=70% height=50% />
-                <h2>
-                  airsoft
-                </h2>  
-            </div>
-            <!-- airsoft end-->
-
-            <!-- hiking -->
-            <div class="individual">
-                <img src="hiking.jpg" alt="airsoft" width="175" height="175"/>
-                <h2>
-                  hiking
-                </h2> 
-            </div>
-            <!-- hiking end-->   
-
-       </div>
-
-
+            <footer>Adomas Kazėnas 2022 | Sources</footer>
+        </div>
     </body>
 </html>
