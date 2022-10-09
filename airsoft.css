@@ -33,4 +33,6 @@ body {
 button{
     border-radius: 6px;
     cursor: pointer;
+    top: 5px;
+    position: fixed;
 } 

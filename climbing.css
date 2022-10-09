@@ -16,7 +16,7 @@ h2 {
 }
 
 body {
-    background-image: url('image.jpg');
+    background-image: url('climbing bc.jpg');
     background-repeat: no-repeat;
     background-size: 2000px 1200px;
 
@@ -33,4 +33,6 @@ body {
 button{
     border-radius: 6px;
     cursor: pointer;
+    top: 5px;
+    position: fixed;
 } 
