@@ -16,19 +16,19 @@ h2 {
 }
 
 body {
-    background-image: url('airsoft bc.jpg');
+    background-image: url('image.jpg');
     background-repeat: no-repeat;
     background-size: 2000px 1200px;
 
 }
 
 #img1{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 #img2 {
-    margin-left: 145px;
-    margin-right: 145px;
+    margin-left: 256.25px;
+    margin-right: 256.25px;
 }
 button{
     border-radius: 6px;
