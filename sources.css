@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 30px;
+    background-color: #fbfad3b2;
+    padding: 10px;
+}
+
+body {
+    background-image: url('forest2.jpg');
+    background-repeat: no-repeat;
+    background-size:2000px 1200px ;
+
+}
+
+button{
+    border-radius: 6px;
+    cursor: pointer;
+    top: 5px;
+    position: fixed;
+} 
